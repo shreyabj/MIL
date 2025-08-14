@@ -1,0 +1,72 @@
+Screen 2 – Login & Permissions (Part 2)
+
+Full-screen background gradient (deep indigo → royal blue).
+
+Center card for login (Google, Email, Social options).
+
+Permission request modal with friendly icons (camera, mic, gallery).
+
+Clear primary button: “Continue”.
+
+Screen 3 – Main Dashboard (Part 2)
+
+Top bar: profile avatar on left, app name & logo center-aligned.
+
+Below: large input field with link paste, media upload, live camera, and audio icons inside the same bar.
+
+Results displayed below input when processed, using stacked cards.
+
+Sidebar menu with three large icons: Game, My Tree, Saved Collection.
+
+Screen 4 – Game Section (Part 2)
+
+Tinder-style swipeable news cards.
+
+“Swipe Right = True” and “Swipe Left = False” labels subtly visible.
+
+Correct swipe triggers smooth animation of a beautiful 3D-style tree growing, leaves shimmering.
+
+Points counter displayed under tree with gradient progress ring.
+
+Screen 5 – My Tree View (Part 2)
+
+Full-screen tree graphic showing growth stages.
+
+Progress bar or ring around the tree indicating earned points.
+
+Motivational message beneath.
+
+Screen 6 – Saved Collection (Part 2)
+
+Grid/list view of saved articles/cards.
+
+Each card shows thumbnail, title, bias score, and a “view details” icon.
+
+Screen 7 – Extended View (Part 3)
+
+Header with back button, content title.
+
+Large content display in center (same as in Part 1 result).
+
+Additional sections:
+
+“Generational Rewrite” toggle with icon.
+
+“Different Sources” list (websites, YouTube thumbnails with links).
+
+Sticky bottom bar with “Get Updates”, “Save”, “Share” buttons.
+
+Overall Styling Notes:
+
+Use rounded corners (20px radius) for all cards, inputs, and buttons.
+
+Employ subtle drop shadows for depth.
+
+Icons should be line-based and minimal for clarity.
+
+Microinteractions like hover states, button press animations, and card transitions should be smooth.
+
+Keep text alignment mostly left for readability, center align for headers.
+
+Maintain consistent padding (16–24px) across sections.
+

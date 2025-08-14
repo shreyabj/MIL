@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Newsreader%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-white justify-between group/design-root overflow-x-hidden"
+      style='font-family: Newsreader, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex absolute top-0 left-0 h-full w-full flex-col justify-end items-stretch bg-[#141414]/40">
+          <div class="flex flex-col items-stretch bg-white">
+            <button class="flex h-5 w-full items-center justify-center"><div class="h-1 w-9 rounded-full bg-[#dbe0e6]"></div></button>
+            <div class="flex-1">
+              <div class="p-4 @container">
+                <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDzuhYahovXG39OcsR1jsQyX_YS46kvjKIn7hfZUZjvKxq5h3g98fYBDK_7ca5wgNj2SpCWogUAIp4eKHv-kED209485NJ44Pri1V9tPm3QcMO6mrsbln-HYpF8tQ_UP744Sb3UguZ6fsW9i5T7fYB_ZspnOAzy_qR-c6FwD0sFRqB_dFT8_P2Au6CC9tSPrwL3WduuPDjKv9c7rZup5juj22LY_5uFmQmp-tIvlkmnz5jk94hPHS9Fl-iMCHl9wMsnMhq7ramSg8E");'
+                  ></div>
+                  <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4">
+                    <p class="text-[#60758a] text-sm font-normal leading-normal">AI-Generated Video</p>
+                    <p class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">Breaking News: Local Election Results</p>
+                    <div class="flex items-end gap-3 justify-between">
+                      <p class="text-[#60758a] text-base font-normal leading-normal">
+                        Watch the latest updates on the local election results, including candidate speeches and voter reactions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex justify-stretch">
+          <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 justify-between">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#0d80f2] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Save</span>
+            </button>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f0f2f5] text-[#111418] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Share</span>
+            </button>
+          </div>
+        </div>
+        <div class="flex px-4 py-3">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 flex-1 bg-[#f0f2f5] text-[#111418] text-sm font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">View More</span>
+          </button>
+        </div>
+        <div class="h-5 bg-white"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
